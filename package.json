@@ -1,0 +1,13 @@
+
+  {
+    "name": "birdbrain-ta",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd birdBrain-TA.client && npm i",
+      "setup:server": "cd birdBrain-TA && npm i",
+      "start": "node birdBrain-TA/index.js"
+    }
+  }
+  
